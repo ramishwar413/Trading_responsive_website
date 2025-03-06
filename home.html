@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Page</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <header>
+        <button id="menu-toggle">☰ Menu</button>
+      </header>
+
+      <aside class="sidebar" id="sidebar">
+        <ul>
+          <li><a href="#post-new-item">Post a New Item</a></li>
+          <li><a href="#my-watchlist">My Watchlist</a></li>
+          <li><a href="#trade-history">Trade History</a></li>
+        </ul>
+      </aside>
+
+      <header>
+        <div class="logo"><img src="./Imgs/home.jpg" /></div>
+        <nav>
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./trade_items.html">Trade Items</a></li>
+            <li><a href="./my_trade.html">My Trades</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container">
+      <main>
+        <section class="items-list">
+          <!-- Example Item -->
+          <div class="item-card">
+            <img src="./Imgs/mainhome.jpg" alt="Item Image" />
+            <h3>Item Name</h3>
+            <p>Item Description</p>
+            <button>Propose Trade</button>
+          </div>
+          <!-- Add more item cards as needed -->
+        </section>
+        <section class="trade-form">
+          <h2>Propose a Trade</h2>
+          <form>
+            <label for="item-offered">Item Offered</label>
+            <input type="text" id="item-offered" placeholder="Your Item" />
+
+            <label for="item-desired">Item Desired</label>
+            <input type="text" id="item-desired" placeholder="Desired Item" />
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your Message"></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <h3>Follow us on:</h3>
+      <div class="social-links">
+        <!-- Placeholder social media links -->
+        <div class="social-links">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./Imgs/facebook.png"
+              alt="Facebook"
+              width="30"
+              height="30"
+            />
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./Imgs/twitter.png"
+              alt="Twitter"
+              width="30"
+              height="30"
+            />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./Imgs/instagram.png"
+              alt="Instagram"
+              width="30"
+              height="30"
+            />
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./Imgs/linkedin.png"
+              alt="LinkedIn"
+              width="30"
+              height="30"
+            />
+          </a>
+        </div>
+      </div>
+      <h3>Contact us: internationaltrading.com</h3>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
